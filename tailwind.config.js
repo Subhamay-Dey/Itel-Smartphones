@@ -3,15 +3,27 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+	'./pages/**/*.{js,ts,jsx,tsx}', 
+	'./components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {
+		animation: {
+			marquee: 'marquee 20s linear infinite', // Adjust the duration as needed
+		  },
+		  keyframes: {
+			marquee: {
+			  '0%': { transform: 'translateX(0)' },
+			  '100%': { transform: 'translateX(-50%)' }, // Move half the width of the container
+			},
+		  },
 			fontFamily: {
 			'markot': ['Mark_OT'],
 			'bricolage': ['BricolageGrotesque'],
 			'be_vietnam_pro': ['Be Vietnam Pro'],
 			},
 			colors: {
+				'home-black-bg':"#111111",
 				'itel-red':'#ff0037',
 				'bg/primary/1': '#f8f6f3',
 				'bg/secondry': '#ebe8e2',
@@ -213,6 +225,8 @@ export default {
 				'fullSpecificationsActiveTabgradient': 'linear-gradient(to right, rgba(255, 0, 55, 0.2) 0%, transparent 7%, transparent 50%, transparent 80%, transparent 100%)',
 				'BuyNowSquareBG': "url('/smartphone/S24/ButtonBackground.png')",
 				'dualDTSSpeaker': "url('/smartphone/S24/dualDTSSpeaker.png')",
+				'homepage-bg': "url('/backgroundImg.jpeg')",
+				"whiteButton" : "url('/whitebutton.png')",
 			},
 			borderImage: {
 				's24-gradient-border': 'linear-gradient(107.83deg, #FFCF92 23.83%, #FFE8CB 75.66%) 1',
