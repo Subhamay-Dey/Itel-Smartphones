@@ -6,7 +6,7 @@ const Homepage = () => {
   return (
     <>
       <div className='h-screen w-full bg-[#111111] bg-cover bg-center relative overflow-hidden'>
-        <div className='mx-20 my-2'>
+        <div className='mx-24 my-4'>
             <div className='h-[490px] w-full bg-homepage-bg bg-cover bg-center rounded-2xl overflow-hidden'>
               <div className='h-[450px] w-full overflow-hidden flex justify-around items-center'>
                 <div>
