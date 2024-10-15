@@ -1,5 +1,6 @@
 import React from 'react';
 import { mobiles } from '../data/mobiles'; // Adjust the import path accordingly
+import Button from './Button';
 
 const MobileList: React.FC = () => {
     return (
@@ -16,9 +17,7 @@ const MobileList: React.FC = () => {
                     <img src={mobile.image} alt={mobile.name} className="max-w-48 h-[200px] mb-2 z-10 relative" />
                     <span className="text-white text-desktop/h4 font-[Mark_OT] z-10 pt-2 relative">{mobile.name}</span>
                     <p className="text-white text-desktop/button z-10 relative pt-3">₹{mobile.price}</p>
-                    <button className="mt-2 w-20 h-4 text-desktop/button text-BUY-NOW-text-color flex gap-2 pt-6 items-center">
-                        <p>BUY</p> <p>NOW</p> <img src="/BuyNowArrow.png" alt="" className='w-4 h-4 mt-1'/>
-                    </button>
+                    <Button/>
                 </div>
             ))}
         </div>

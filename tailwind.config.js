@@ -48,6 +48,11 @@ export default {
 				's23/to':'#5C5C7E',
 			},
 			fontSize: {
+				'txt-bricolage': ['94.71px', {
+					lineHeight: '90.92px',
+					letterSpacing: '-0.01em',
+					fontWeight: '800'
+				}],
 				'desktop/large/h': ['136px', {
 					lineHeight: '149.6px',
 					fontWeight: '500'

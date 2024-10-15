@@ -1,4 +1,4 @@
-import React from 'react'
+
 import MobileList from './MobileList'
 import ContinuousInfo from './ContinuousInfo'
 
@@ -20,7 +20,7 @@ const Homepage = () => {
                       <p className='text-white text-desktop/body/large font-[Mark_OT]'>simplicity with modern style.</p>
                     </div>
                 </div>
-                <div className='flex justify-center items-center pr-20'>
+                <div className='flex justify-center items-center pr-16'>
                   <div className='pr-10 pb-52'>
                     <img src="/miniItel.png" alt="" />
                   </div>

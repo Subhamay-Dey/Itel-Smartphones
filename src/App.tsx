@@ -1,3 +1,4 @@
+import Enjoy from "./components/Enjoy"
 import Homepage from "./components/Homepage"
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
   return (
     <>
       <Homepage/>
-      <Homepage/>
+      <Enjoy/>
     </>
   )
 }
