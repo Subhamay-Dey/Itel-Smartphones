@@ -6,7 +6,7 @@ function Third() {
     <>
         <div className='w-full h-screen bg-third-bg flex flex-row justify-center'>
             <div className='relative'>
-                <img src="/EnjoyBetterLife.png" alt="" className='w-full h-44'/>
+                <img src="/EnjoyBetterLife.png" alt="" className='w-full h-44 '/>
                 <div className='px-20'>
                     <BentoGrid/>
                 </div>
