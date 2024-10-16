@@ -1,5 +1,5 @@
 import React from 'react';
-import { mobiles } from '../data/mobiles'; // Adjust the import path accordingly
+import { mobiles } from '../data/mobiles';
 import Button from './Button';
 
 const MobileList: React.FC = () => {

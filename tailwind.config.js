@@ -26,6 +26,8 @@ export default {
 				'home-black-bg':"#111111",
 				'phones-bg':" #232323",
 				'BUY-NOW-text-color': "#F8F6F3",
+				'third-bg': "#131313",
+				'bentogrid-bg': "#232322",
 				'itel-red':'#ff0037',
 				'bg/primary/1': '#f8f6f3',
 				'bg/secondry': '#ebe8e2',
