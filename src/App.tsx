@@ -1,13 +1,13 @@
 import Enjoy from "./components/Enjoy"
-import Homepage from "./components/Homepage"
 import HotPicks from "./components/HotPicks"
-import Third from "./components/Third"
+import First from "./components/pages/First"
+import Third from "./components/pages/Third"
 
 function App() {
 
   return (
     <>
-      <Homepage/>
+      <First/>
       <Enjoy/>
       <Third/>
       <HotPicks/>

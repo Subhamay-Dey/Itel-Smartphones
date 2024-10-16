@@ -1,10 +1,10 @@
 
 import BentoGrid from './BentoGrid'
 
-function Third() {
+function Bento() {
   return (
     <>
-        <div className='w-full h-screen bg-third-bg flex flex-row justify-center py-[72px]'>
+        <div className='w-full h-screen bg-third-bg hidden md:flex md:flex-row justify-center py-[72px]'>
             <div className='relative'>
                 <img src="/EnjoyBetterLife.png" alt="" className='w-full h-48 relative z-0'/>
                 <div className='px-20 w-full absolute z-10 top-24 flex justify-center'>
@@ -17,4 +17,4 @@ function Third() {
   )
 }
 
-export default Third
+export default Bento

@@ -1,4 +1,4 @@
-export const mobiles =[
+export const mobiles = [
     {
         id: 1,
         image: "/SuperGuru4G.png",
