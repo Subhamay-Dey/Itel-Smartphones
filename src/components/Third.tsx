@@ -1,4 +1,4 @@
-import React from 'react'
+
 import BentoGrid from './BentoGrid'
 
 function Third() {

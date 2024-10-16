@@ -1,4 +1,3 @@
-import React from 'react'
 
 const HotPicks = () => {
   return (
@@ -16,7 +15,7 @@ const HotPicks = () => {
                 <button className='w-28 h-12 border-border-color border-[2px] text-white text-desktop/body/1 font-[MARK_OT] rounded-full'>Smart TV</button>
             </div>
             <div className='w-full flex justify-between items-center gap-4 mt-6'>
-                <div className='bg-phones-bg w-[480px] h-[620px] rounded-2xl flex flex-col justify-center items-center p-5'>
+                <div className='bg-phones-bg w-[480px] h-[620px] rounded-2xl flex flex-col justify-center items-center px-4 pb-4 pt-1.5'>
                     <img src="/new.png" alt="" className='w-[60px] h-[30px]'/>
                     <img src="/hotpickimage1.png" alt="" className='w-[300px] h-[300px] mt-[15px]'/>
                     <p className='text-white mt-6 text-desktop/h4 font-[MARK_OT]'>S24</p>
