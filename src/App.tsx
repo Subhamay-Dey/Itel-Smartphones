@@ -1,6 +1,5 @@
 import Firstpage from "./components/it2175p/Firstpage"
 
-
 function App() {
 
   return (
