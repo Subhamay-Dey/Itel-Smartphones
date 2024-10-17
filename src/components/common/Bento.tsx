@@ -2,6 +2,7 @@
 import BentoGrid from './BentoGrid'
 
 function Bento() {
+  
   return (
     <>
         <div className='w-full h-screen bg-third-bg hidden md:flex md:flex-row justify-center py-[72px]'>

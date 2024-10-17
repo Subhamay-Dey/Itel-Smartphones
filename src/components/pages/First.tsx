@@ -1,5 +1,5 @@
 
-import Homepage from '../Homepage'
+import Homepage from '../Homepage/Homepage'
 import Mobilehomepage from '../responsive/homepage/mobilehomepage'
 
 function First() {

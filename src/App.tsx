@@ -1,16 +1,15 @@
-import Enjoy from "./components/Enjoy"
-import HotPicks from "./components/HotPicks"
-import First from "./components/pages/First"
-import Third from "./components/pages/Third"
+import Firstpage from "./components/it2175p/Firstpage"
+
 
 function App() {
 
   return (
     <>
-      <First/>
+      {/* <First/>
       <Enjoy/>
       <Third/>
-      <HotPicks/>
+      <HotPicks/> */}
+      <Firstpage/>
     </>
   )
 }
