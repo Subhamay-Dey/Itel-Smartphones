@@ -238,7 +238,7 @@ export default {
 				'fullSpecificationsActiveTabgradient': 'linear-gradient(to right, rgba(255, 0, 55, 0.2) 0%, transparent 7%, transparent 50%, transparent 80%, transparent 100%)',
 				'BuyNowSquareBG': "url('/smartphone/S24/ButtonBackground.png')",
 				'dualDTSSpeaker': "url('/smartphone/S24/dualDTSSpeaker.png')",
-				'homepage-bg': "url('/backgroundImg.jpeg')",
+				'homepage-bg': "url('/backgroundImg.webp')",
 				"whiteButton" : "url('/whitebutton.png')",
 			},
 			borderImage: {
