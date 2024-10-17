@@ -23,19 +23,23 @@ function Mobilehomepage() {
         </div>
       </div>
 
-      <div className="w-full flex justify-around items-center">
-        <div className="grid grid-cols-2 max-w-full gap-2 mt-4">
-          <div className="h-[330px] sm:h-[350px] bg-phones-bg w-[180px] sm:w-[210px] rounded-2xl flex flex-col items-center">
-            <img src="/SuperGuru4G.png" alt="Super Guru 4G" className="h-48 sm:h-56 mt-2"/>
-            <p className="text-white font-[MARK_OT] text-mobile/h6 pb-3">Super Guru 4G</p>
-            <p className="text-white font-bold">₹1,799.00</p>
-            <Button />
+      <div className="w-full flex justify-stretch items-center">
+        <div className="grid grid-cols-2 w-full h-full justify-center items-center  mt-4">
+          <div className="w-full flex justify-start items-center gap-2">
+            <div className="md:h-[330px] h-[350px] bg-phones-bg md:w-[180px] w-[96%] rounded-2xl flex flex-col items-center">
+              <img src="/SuperGuru4G.png" alt="Super Guru 4G" className="h-48 sm:h-56 mt-2"/>
+              <p className="text-white font-[MARK_OT] text-mobile/h6 pb-3">Super Guru 4G</p>
+              <p className="text-white font-bold">₹1,799.00</p>
+              <Button />
+            </div>
           </div>
-          <div className="h-[330px] sm:h-[350px] bg-phones-bg w-[180px] sm:w-[210px] rounded-2xl flex flex-col items-center">
-            <img src="/Power120.png" alt="Power 120" className="h-48 sm:h-52 mb-2 sm:mb-6"/>
-            <p className="text-white font-[MARK_OT] text-mobile/h6 pb-3">Power120</p>
-            <p className="text-[#D9D9D9] font-bold">₹1,399.00</p>
-            <Button />
+          <div className="w-full flex justify-end items-center">
+            <div className="md:h-[330px] h-[350px] bg-phones-bg md:w-[180px] w-[96%] rounded-2xl flex flex-col items-center">
+              <img src="/Power120.png" alt="Power 120" className="h-48 sm:h-52 mb-2 sm:mb-6"/>
+              <p className="text-white font-[MARK_OT] text-mobile/h6 pb-3">Power120</p>
+              <p className="text-[#D9D9D9] font-bold">₹1,399.00</p>
+              <Button />
+            </div>
           </div>
         </div>
       </div>

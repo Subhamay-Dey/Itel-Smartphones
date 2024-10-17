@@ -2,7 +2,7 @@
 const HotPicks = () => {
   return (
     <>
-        <div className='w-full h-screen bg-third-bg px-36 pt-10'>
+        <div className='w-full h-screen bg-third-bg px-36 pt-10 overflow-hidden'>
             <div className='flex gap-4 items-center'>
                 <img src="/HotStar.png" alt="" className='w-20 h-20'/>
                 <p className='text-white text-desktop/h2 font-[MARK_OT]'>Hot Picks: Snag ‘Em Now!</p>

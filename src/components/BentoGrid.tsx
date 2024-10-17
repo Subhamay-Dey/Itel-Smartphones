@@ -1,8 +1,8 @@
 
 function BentoGrid() {
   return (
-    <div className='flex justify-between items-center gap-5'>
-        <div className='w-[500px] h-[550px] bg-bentogrid-bg rounded-xl flex flex-col justify-between'>
+    <div className='flex justify-between items-center gap-5 overflow-hidden'>
+        <div className='lg:w-[500px] md:w-[300px] lg:h-[550px] md:h-[450px] bg-bentogrid-bg rounded-xl flex flex-col justify-between'>
             <div className='pt-[40px] px-[40px]'>
                 <p className='text-white text-desktop/h4 font-[MARK_OT]'>Amp Your Style with itel Latest</p>
                 <p className='text-white text-desktop/h4 font-[MARK_OT]'>Smartphones</p>
