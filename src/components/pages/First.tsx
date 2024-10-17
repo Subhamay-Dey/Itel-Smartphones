@@ -1,6 +1,6 @@
 
 import Homepage from '../Homepage'
-import Mobilehomepage from '../responsive/mobilehomepage'
+import Mobilehomepage from '../responsive/homepage/mobilehomepage'
 
 function First() {
   return (

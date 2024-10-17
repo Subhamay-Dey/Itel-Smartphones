@@ -1,8 +1,8 @@
-import Button from "../Button";
+import Button from "../../common/Button";
 
 function Mobilehomepage() {
   return (
-    <div className='md:hidden lg:hidden block bg-[#111111] max-w-full min-h-screen py-8 px-4 sm:px-6 overflow-hidden'>
+    <div className='md:hidden lg:hidden block bg-[#111111] max-w-full min-h-screen py-8 px-4 sm:px-6 '>
       <div className='h-[400px] sm:h-[420px] bg-homepage-bg bg-cover bg-center rounded-2xl overflow-hidden pt-8 px-6 sm:px-8 flex flex-col'>
         <div className="block">
           <p className="text-white font-[MARK_OT] text-mobile/h4">Discover the Next-Gen</p>

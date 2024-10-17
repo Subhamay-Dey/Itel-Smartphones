@@ -30,7 +30,7 @@ const HotPicks = () => {
                     <p className='text-gray-400 text-desktop/body/2/regular font-[MARK_OT]'>Google Apps in-built</p>
                     <button className='text-white w-[250px] h-[50px] bg-price-tag border-gray-500 border-[1px] rounded-3xl flex justify-center items-center gap-2 mt-6 text-desktop/button font-[MARK_OT]'>₹18,999/- <img src="/arrow-right.png" alt="" className='w-6 h-6'/></button>
                 </div>
-                <div className='bg-phones-bg w-[480px] h-[620px] rounded-2xl flex flex-col justify-center items-center p-6'>
+                <div className='bg-phones-bg w-[480px] h-[620px] rounded-2xl hidden md:flex flex-col justify-center items-center p-6'>
                     <img src="/hotpickimage3.png" alt="" className='w-[300px] h-[300px] mt-[20px]'/>
                     <p className='text-white mt-6 text-desktop/h4 font-[MARK_OT]'>S24</p>
                     <p className='text-gray-400 text-desktop/body/2/regular font-[MARK_OT] mt-4'>Your Ideal Storyteller: Stunning</p>

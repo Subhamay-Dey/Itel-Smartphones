@@ -9,7 +9,7 @@ function App() {
     <>
       <First/>
       <Enjoy/>
-      <Third/>
+      {/* <Third/> */}
       <HotPicks/>
     </>
   )

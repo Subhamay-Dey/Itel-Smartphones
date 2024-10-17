@@ -1,5 +1,5 @@
-import Bento from "../Bento"
-import BentoMobile from "../responsive/BentoMobile"
+import Bento from "../common/Bento"
+import BentoMobile from "../responsive/homepage/BentoMobile"
 
 function Third() {
   return (
