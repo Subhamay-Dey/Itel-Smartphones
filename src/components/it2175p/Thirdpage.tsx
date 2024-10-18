@@ -4,7 +4,7 @@ function Thirdpage() {
     <div className="md:flex flex flex-col-reverse md:flex-row items-center justify-center lg:bg-SnapandSaveBG bg-SnapandSaveBGmobile bg-center bg-cover min-h-screen px-4 md:px-10">
         <section className="flex-1 flex items-end justify-center">
             <div className="">
-                <img src="/it2175/backgrounds/SnapandSaveGraphic.png" alt="" className="md:h-[500px] md:w-[600px] lg:h-screen h-[500px] lg:pl-16 lg:pt-16"/>
+                <img src="/it2175/backgrounds/SnapandSaveGraphic.png" alt="" className="md:h-[500px] md:w-[600px] lg:h-screen h-[450px] lg:pl-16 lg:pt-16"/>
             </div>
         </section>
         <section className="flex-1 flex flex-col w-full h-screen items-start justify-center md:p-4 md:pt-0 pt-10">
