@@ -39,7 +39,7 @@ const Firstpage = () => {
             </h1>
         </div>
             {/* <p className="text-lg xl:text-xl 2xl:text-2xl mb-4 text-center lg:text-left"> */}
-            <p className="font-[MARK_OT] text-[20px] leading-[22.72px] text-left lg:py-2 text-white text-mobile/body/2">
+            <p className="font-[MARK_OT] text-[20px] leading-[22.72px] text-left lg:py-2 text-white">
                 Experience a bigger view and elevated style with itel2175 Pro's big and bright 5.1cm (2”) Display. Ergonomically designed for your comfort.
             </p>
 

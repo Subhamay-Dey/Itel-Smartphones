@@ -241,6 +241,7 @@ export default {
 				'homepage-bg': "url('/backgroundImg.webp')",
 				"whiteButton" : "url('/whitebutton.png')",
 				"the20displayBG" : "url('/it2175/backgrounds/the20displayBG.webp')",
+				"powerthatgoeasBG" : "url('/it2175/backgrounds/powerthatgoeasBG.webp')"
 			},
 			borderImage: {
 				's24-gradient-border': 'linear-gradient(107.83deg, #FFCF92 23.83%, #FFE8CB 75.66%) 1',

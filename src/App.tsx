@@ -1,4 +1,5 @@
 import Firstpage from "./components/it2175p/Firstpage"
+import Secondpage from "./components/it2175p/Secondpage"
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <Third/>
       <HotPicks/> */}
       <Firstpage/>
+      <Secondpage/>
     </>
   )
 }
