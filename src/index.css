@@ -6,4 +6,9 @@
     .content {
       @apply mx-auto max-w-7xl w-full md:w-11/12;
     }
+    @media (max-width: 374px) {
+      small {
+          @apply h-[350px];
+      }
+  }
 }

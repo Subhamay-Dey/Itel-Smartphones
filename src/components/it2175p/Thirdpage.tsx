@@ -1,22 +1,22 @@
-
 function Thirdpage() {
+
   return (
-    <div className="md:flex flex flex-col-reverse md:flex-row items-center justify-center lg:bg-SnapandSaveBG bg-SnapandSaveBGmobile bg-center bg-cover min-h-screen px-4 md:px-10">
-        <section className="flex-1 flex items-end justify-center">
-            <div className="">
-                <img src="/it2175/backgrounds/SnapandSaveGraphic.png" alt="" className="md:h-[500px] md:w-[600px] lg:h-screen h-[450px] lg:pl-16 lg:pt-16"/>
-            </div>
+
+    <div className="lg:flex flex flex-col-reverse lg:flex-row items-center justify-between lg:bg-SnapandSaveBG bg-SnapandSaveBGmobile bg-center bg-cover h-screen pt-6 px-2 sm:px-4 md:px-10 lg:overflow-hidden">
+        <section className="flex items-end justify-center w-full h-[65%] lg:h-fit md:h-[70%]">
+            <img
+                src="/it2175/backgrounds/SnapandSaveGraphic.png"
+                alt="Snap and Save Graphic"
+                className="w-full md:max-w-[600px] md:h-[100%] lg:h-screen h-full small min-w-full lg:pt-16"
+            />
         </section>
-        <section className="flex-1 flex flex-col w-full h-screen items-start justify-center md:p-4 md:pt-0 pt-10">
-            <div className="w-full h-[60%] flex justify-start items-start">
-                <div className="text-white pl-32 hidden lg:block">
-                    <h1 className="text-3xl md:text-4xl lg:text-[60px] font-bold leading-[72px] tracking-[0.03em] text-left py-4">
-                        Snap & Save: Rear
+        <section className="flex flex-col w-full xl:h-screen 2xl:h-screen h-[30%] items-start justify-center p-4">
+            <div className="w-full h-fit flex justify-start items-start">
+                <div className="text-white 2xl:pl-32 xl:pl-20 lg:pl-12 hidden md:block lg:block">
+                    <h1 className="text-3xl md:text-4xl lg:text-[50px] xl:text-[60px] md:text-[52px] font-bold md:leading-[66px] lg:leading-[60px] xl:leading-[72px] tracking-[0.03em] text-left py-4">
+                        Snap & Save: Rear Camera Magic
                     </h1>
-                    <h1 className="text-3xl md:text-4xl lg:text-[60px] font-bold leading-[72px] tracking-[0.03em] text-left py-4">
-                        Camera Magic
-                    </h1>
-                    <p className="mt-4 text-base md:text-lg text-left w-[65%] flex-wrap pt-4">
+                    <p className="mt-4 text-base md:text-lg text-left w-[70%] flex-wrap pt-4">
                         Snap precious moments with itel it2175 Pro's rear camera - Memories captured, connections preserved.
                     </p>
                 </div>
@@ -34,4 +34,4 @@ function Thirdpage() {
   )
 }
 
-export default Thirdpage
+export default Thirdpage;

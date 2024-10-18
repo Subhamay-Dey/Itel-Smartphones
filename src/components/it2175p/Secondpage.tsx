@@ -1,22 +1,18 @@
 
-
 const Secondpage = () => {
   return (
     <div className="flex justify-evenly items-end min-h-screen bg-powerthatgoeasBG bg-cover bg-center">
         <div className="flex flex-col justify-center items-center lg:flex-row w-full max-w-8xl h-full mx-auto lg:mx-2 md:px-4 md:pt-4 px-4 pt-4 lg:gap-4">
             {/* Phone Images Section */}
             <section className="flex flex-col justify-center items-end w-full lg:w-3/5 h-3/4">
-                <div>
+                <div className="w-[70%] h-full">
                     <h1 className="lg:hidden text-4xl xl:text-5xl 2xl:text-6xl mb-4 text-center lg:text-left text-white text-mobile/h4 font-[MARK_OT]">
                         Power That Goes the Extra Mile
                     </h1>
 
-                    <div className="max-w-[328px] lg:flex lg:flex-col hidden lg:pb-6 pb-0 pt-[32px] w-full justify-start items-start">
-                        <h1 className="text-mobile/h4 xl:text-5xl 2xl:text-6xl mb-4 lg:text-left font-[MARK_OT] md:leading-[72px] md:tracking-[-0.02em] text-left text-white">
-                            Power That Goes
-                        </h1>
-                        <h1 className="text-mobile/h4 xl:text-5xl 2xl:text-6xl mb-4 lg:text-left font-[MARK_OT] md:leading-[72px] md:tracking-[-0.02em] text-left text-white ">
-                            the Extra Mile
+                    <div className="max-w-full lg:flex lg:flex-col hidden lg:pb-6 pb-0 pt-[32px] justify-start items-start">
+                        <h1 className="text-mobile/h4 xl:text-5xl 2xl:text-6xl w-full mb-4 lg:text-left font-[MARK_OT] md:leading-[72px] md:tracking-[-0.02em] text-left text-white flex-wrap">
+                            Power That Goes the Extra Mile
                         </h1>
                     </div>
 
