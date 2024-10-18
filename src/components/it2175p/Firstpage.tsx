@@ -46,24 +46,24 @@ const Firstpage = () => {
 
             {/* Centering the option group */}
             <div className="w-full flex justify-center items-center">
-            <div className="grid grid-cols-2 gap-4 gap-y-4 w-fit lg:py-6 justify-center">
-                <div className="flex items-center justify-start">
-                    <img src="/it2175/backgrounds/hand-point.png" alt="hand" className="text-lg xl:text-3xl 2xl:text-4xl mr-2"/>
-                    <p className="text-lg xl:text-xl 2xl:text-2xl text-white lg:text-desktop/h6 text-mobile/h7 font-[MARK_OT]">Bigger View</p>
+                <div className="grid grid-cols-2 gap-4 gap-y-4 w-fit lg:py-6 justify-center">
+                    <div className="flex items-center justify-start">
+                        <img src="/it2175/backgrounds/hand-point.png" alt="hand" className="text-lg xl:text-3xl 2xl:text-4xl mr-2"/>
+                        <p className="text-lg xl:text-xl 2xl:text-2xl text-white lg:text-desktop/h6 text-mobile/h7 font-[MARK_OT]">Bigger View</p>
+                    </div>
+                    <div className="flex items-center justify-start">
+                        <img src="/it2175/backgrounds/hand-point.png" alt="hand" className="fas fa-thumbs-up text-2xl xl:text-3xl 2xl:text-4xl mr-2"/>
+                        <p className="text-lg xl:text-xl 2xl:text-2xl text-white lg:text-desktop/h6 text-mobile/h7 font-[MARK_OT]">Elevated Style</p>
+                    </div>
+                    <div className="flex items-center justify-start">
+                        <img src="/it2175/backgrounds/hand-point.png" alt="hand" className="fas fa-thumbs-up text-2xl xl:text-3xl 2xl:text-4xl mr-2"/>
+                        <p className="text-lg xl:text-xl 2xl:text-2xl text-white lg:text-desktop/h6 text-mobile/h7 font-[MARK_OT]">Highly Ergonomic</p>
+                    </div>
+                    <div className="flex items-center justify-start">
+                        <img src="/it2175/backgrounds/hand-point.png" alt="hand" className="fas fa-thumbs-up text-2xl xl:text-3xl 2xl:text-4xl mr-2"/>
+                        <p className="text-lg xl:text-xl 2xl:text-2xl text-white lg:text-desktop/h6 text-mobile/h7 font-[MARK_OT]">Elevated Experiences</p>
+                    </div>
                 </div>
-                <div className="flex items-center justify-start">
-                    <img src="/it2175/backgrounds/hand-point.png" alt="hand" className="fas fa-thumbs-up text-2xl xl:text-3xl 2xl:text-4xl mr-2"/>
-                    <p className="text-lg xl:text-xl 2xl:text-2xl text-white lg:text-desktop/h6 text-mobile/h7 font-[MARK_OT]">Elevated Style</p>
-                </div>
-                <div className="flex items-center justify-start">
-                    <img src="/it2175/backgrounds/hand-point.png" alt="hand" className="fas fa-thumbs-up text-2xl xl:text-3xl 2xl:text-4xl mr-2"/>
-                    <p className="text-lg xl:text-xl 2xl:text-2xl text-white lg:text-desktop/h6 text-mobile/h7 font-[MARK_OT]">Highly Ergonomic</p>
-                </div>
-                <div className="flex items-center justify-start">
-                    <img src="/it2175/backgrounds/hand-point.png" alt="hand" className="fas fa-thumbs-up text-2xl xl:text-3xl 2xl:text-4xl mr-2"/>
-                    <p className="text-lg xl:text-xl 2xl:text-2xl text-white lg:text-desktop/h6 text-mobile/h7 font-[MARK_OT]">Elevated Experiences</p>
-                </div>
-            </div>
             </div>
         </section>
     {/* </div> */}
