@@ -31,9 +31,12 @@ const Firstpage = () => {
             <h1 className="lg:hidden text-4xl xl:text-5xl 2xl:text-6xl mb-4 text-center lg:text-left text-white text-mobile/h4 font-[MARK_OT] md:text-mobile/h1">
                 The 2.0” Display Advantage
             </h1>
-            <div className="lg:flex lg:flex-col hidden lg:pb-6">
+            <div className=" lg:flex lg:flex-row lg:flex-wrap xl:flex xl:flex-row xl:flex-wrap 2xl:flex 2xl:flex-row 2xl:flex-wrap hidden lg:pb-6 gap-4">
                 <h1 className="text-4xl xl:text-5xl 2xl:text-6xl font-bold mb-4 text-center lg:text-left text-white">
-                    The 2.0” Display
+                    The 2.0”
+                </h1>
+                <h1 className="text-4xl xl:text-5xl 2xl:text-6xl font-bold mb-4 text-center lg:text-left text-white">
+                    Display
                 </h1>
                 <h1 className="text-4xl xl:text-5xl 2xl:text-6xl font-bold mb-4 text-center lg:text-left text-white">
                     Advantage
