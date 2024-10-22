@@ -5,6 +5,7 @@ import StickyHeader from './components/it2175p/StickyHeader'
 import { FeatureRichDatait5262, FullSpecificationsDatait5262, HeroDatait5262, KingVoiceDatait5262, ProductGalleryDataIt5262, TechSpecsDatait5262 } from '../../data/featurephonedata/it2175Data'
 import FeatureRich from './components/it2175p/FeatureRich'
 import PhoneSliderAnimation from './components/it2175p/PhoneSliderAnimation '
+import KingVoice from './components/it2175p/KingVoice '
 
 const It2175 = () => {
     return (
@@ -13,6 +14,7 @@ const It2175 = () => {
             <StickyHeader {...HeroDatait5262} />
             <FeatureRich {...FullSpecificationsDatait5262}/>
             <PhoneSliderAnimation/>
+            <KingVoice {...KingVoiceDatait5262}/>
         </div>
     )
 }
