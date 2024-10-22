@@ -1,5 +1,5 @@
 
-import ContinuousInfo from '../common/ContinuousInfo'
+import ContinuousInfo from './common/ContinuousInfo'
 import MobileList from './MobileList'
 
 const Homepage = () => {

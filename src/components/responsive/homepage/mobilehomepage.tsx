@@ -1,4 +1,4 @@
-import Button from "../../common/Button";
+import Button from "../../Homepage/common/Button";
 
 function Mobilehomepage() {
   return (
