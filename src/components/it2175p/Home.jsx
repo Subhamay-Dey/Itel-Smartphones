@@ -10,7 +10,7 @@ const Hero = ({ title, subtitle, phoneUrl, purchaseLink, bgDesktop, bgMobile }) 
     console.log('bgdesktop', bgDesktop)
 0
     return (
-        <div ref={elementRef} className=' overflow-hidden lg:min-h-screen min-h-screen items-center flex' style={{ background: `url(${width < 1024 ? bgMobile : bgDesktop}) center center/cover no-repeat `}}>
+        <div ref={elementRef} className=' overflow-hidden lg:min-h-[680px] min-h-[521px] items-center flex' style={{ background: `url(${width < 1024 ? bgMobile : bgDesktop}) center center/cover no-repeat `}}>
             <div className="content flex flex-col lg:flex-row gap-4 lg:gap-0 lg:justify-between items-center px-4 md:px-0 relative">
                 <div className="space-y-4 lg:space-y-9">
                     <div className="space-y-2 lg:space-y-3">

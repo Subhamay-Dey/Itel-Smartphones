@@ -7,6 +7,8 @@ import FeatureRich from './components/it2175p/FeatureRich'
 import PhoneSliderAnimation from './components/it2175p/PhoneSliderAnimation '
 import KingVoice from './components/it2175p/KingVoice '
 import TechSpecs from './components/it2175p/TechSpecs'
+import Firstpage from './components/it2175p/Firstpage'
+import Secondpage from './components/it2175p/Secondpage'
 
 const It2175 = () => {
     return (
@@ -14,8 +16,10 @@ const It2175 = () => {
             <Hero {...HeroDatait2175} />
             <StickyHeader {...HeroDatait2175} />
             <FeatureRich {...FeatureRichDatait2175}/>
-            {/* <PhoneSliderAnimation/>
-            <KingVoice {...KingVoiceDatait5262}/>
+            <PhoneSliderAnimation/>
+            <Firstpage/>
+            <Secondpage/>
+            {/* <KingVoice {...KingVoiceDatait5262}/>
             <TechSpecs {...TechSpecsDatait5262}/> */}
         </div>
     )
