@@ -12,7 +12,7 @@ const KingVoice = ({ phoneUrl, cards, bgColor, borderColor, textColor, linearGra
                         <span className='tracking-[15px] font-markot '>king</span><br className='lg:hidden' />
                         <div className='-tracking-[3.7px] inline'>v
                             <div className='relative inline'>
-                                o
+                                
                                 <svg width="92" className='size-6 lg:size-[92px] absolute top-[52%] left-[53%] -translate-x-1/2 -translate-y-1/2' height="92" viewBox="0 0 92 92" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g id="mingcute:voice-fill" clip-path="url(#clip0_7561_74761)">
                                         <g id="Group">
