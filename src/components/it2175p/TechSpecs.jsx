@@ -8,7 +8,7 @@ const TechSpecs = ({ phoneUrl, cards }) => {
 
     return (
         <div ref={elementRef} className="py-[60px] overflow-hidden px-4 md:px-0 lg:py-[120px]">
-            <div className='bg-bg/secondry max-h-[680px] rounded-[16px] flex flex-col lg:flex-row lg:rounded-[24px] lg:gap-10 py-[26px] overflow-hidden px-4 lg:pt-[97px] lg:pb-6 lg:pl-[124px] content font-markot' style={{ background: width > 1024 ? #ebe8e2 url(/featurephone/superguru4g/techspecscircle.svg) top right no-repeat : '#ebe8e2 url(/featurephone/superguru4g/techspecscirclemobile.svg) top 80% right no-repeat' }}>
+            <div className='bg-bg/secondry max-h-[680px] rounded-[16px] flex flex-col lg:flex-row lg:rounded-[24px] lg:gap-10 py-[26px] overflow-hidden px-4 lg:pt-[97px] lg:pb-6 lg:pl-[124px] content font-markot'>
                 <div className="space-y-5 lg:space-y-[57px]">
                     <div className="space-y-1 lg:space-y-3">
                         <h3 className='uppercase text-mobile/title lg:text-[14px] lg:leading-[17px] font-medium text-smoky/black' data-aos="fade-left">Tech Specs</h3>
@@ -32,4 +32,4 @@ const TechSpecs = ({ phoneUrl, cards }) => {
     )
 }
 
-export default TechSpecs
+export default TechSpecs

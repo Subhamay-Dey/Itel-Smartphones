@@ -1,5 +1,5 @@
 import React from 'react';
-import { mobiles } from '../../data/mobiles';
+import { mobiles } from './data/mobiles';
 import Button from './common/Button';
 
 const MobileList: React.FC = () => {
