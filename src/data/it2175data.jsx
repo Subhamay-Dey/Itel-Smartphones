@@ -86,14 +86,13 @@ export const FullSpecificationsDatait2175 = [
     },
 ]
 
-
-export const FeatureRichDatait5262 = {
-    title: 'Your Perfect Companion: 13 Days* Battery Backup',
-    description: 'Stay lit with the itel it5262 - your perfect companion! Packed with a big 2000 mAh battery, this sleek feature phone keeps you connected all day without the power struggle. Rocking a glass finish design for a modern vibe, kingvoice, and Type-C charging for a quick full charge. Level up with the all-new itel it5262!',
+export const FeatureRichDatait2175 = {
+    title: 'Stay Stylish, Stay Powered Up with it2175 Pro',
+    description: 'Meet the it2175 Pro, your new stylish feature phone with a big and bright 5.1cm (2”) display, 1200 mAh long-lasting battery with up to 25 days* of standby time, kingvoice, and a rear camera to capture memories. Store and organize up to 2000 contacts with photos, helping you find contacts easily. Looking for sleek phones with incredible battery life? The itel it2175 Pro is your go-to choice.',
     cards: [
-        { icon: '/featurephone/common/usb-red.svg', title: 'Modern Convenience: Type-C Charging', description: "Stay ahead with Type-C charging on your feature phone, ensuring faster and more efficient power-ups." },
-        { icon: '/featurephone/common/slim-red.svg', title: 'Ultra-Slim Glass Finish Design', description: "Experience a blend of premium aesthetics, durability, and functionality with the sleek ultra-slim glass finish design." },
-        { icon: '/featurephone/common/battery-full-red.svg', title: '2000 mAh Long Lasting Battery', description: "Stay powered up with up to 13 Days* Battery Backup. Say Goodbye to constant recharging!" },
+        { icon: '/it2175/backgrounds/bright.png', title: 'Big and Bright 5.1cm (2”) Display', description: "Experience your content like never before in a feature phone with the big and bright 5.1 cm (2”) display." },
+        { icon: '/it2175/backgrounds/battery.png', title: '1200 mAh Reliable Battery', description: "Our robust 1200mAh battery supports 8 days* battery backup with super battery mode ensuring reliable performance throughout the day." },
+        { icon: '/it2175/backgrounds/voice.png', title: 'King Voice: Voice-Activated Technology', description: "Experience hands-free convenience and intuitive navigation with innovative voice-out technology." },
     ]
 }
 
