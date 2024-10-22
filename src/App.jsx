@@ -12,8 +12,8 @@ const It2175 = () => {
     return (
         <div>
             <Hero {...HeroDatait2175} />
-            {/* <StickyHeader {...HeroDatait5262} />
-            <FeatureRich {...FullSpecificationsDatait2175}/>
+            <StickyHeader {...HeroDatait2175} />
+            {/* <FeatureRich {...FullSpecificationsDatait2175}/>
             <PhoneSliderAnimation/>
             <KingVoice {...KingVoiceDatait5262}/>
             <TechSpecs {...TechSpecsDatait5262}/> */}
