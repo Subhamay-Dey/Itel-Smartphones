@@ -8,8 +8,8 @@ const TechSpecs = ({ phoneUrl, cards }) => {
 
     return (
         <div ref={elementRef} className="py-[60px] overflow-hidden px-4 md:px-0 lg:py-[120px]">
-            <div className='bg-bg/secondry max-h-[680px] rounded-[16px] flex flex-col lg:flex-row lg:rounded-[24px] lg:gap-10 py-[26px] overflow-hidden px-4 lg:pt-[97px] lg:pb-6 lg:pl-[124px] content font-markot'>
-                <div className="space-y-5 lg:space-y-[57px]">
+            <div className='bg-bg/secondry max-h-[680px] rounded-[16px] flex flex-col lg:flex-row lg:rounded-[24px] lg:gap-10 py-[26px] overflow-hidden px-4 lg:pt-[50px] lg:pb-6 lg:pl-[124px] content font-markot'>
+                <div className="space-y-5 lg:space-y-[57px] lg:pb-20">
                     <div className="space-y-1 lg:space-y-3">
                         <h3 className='uppercase text-mobile/title lg:text-[14px] lg:leading-[17px] font-medium text-smoky/black' data-aos="fade-left">Tech Specs</h3>
                         <h3 className=' text-mobile/h4 lg:text-desktop/h3 text-black/1' data-aos="fade-left">Power Packed Features</h3>
@@ -22,7 +22,6 @@ const TechSpecs = ({ phoneUrl, cards }) => {
                             </div>
                         } />
                     </div>
-                    <div className="text-right lg:text-left text-mobile/small/body lg:text-desktop/body/1 text-grey/grey/5">*Under testing conditions</div>
                 </div>
                 <div className="max-w-[501px]">
                     <img src={phoneUrl} alt="Super Guru 4g" className='lg:max-w-[501px] max-w-[280px] mx-auto translate-y-8 lg:translate-y-6' data-aos="fade-up-left" />

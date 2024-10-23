@@ -1,14 +1,13 @@
 import React, { useRef } from 'react'
-import { useSize } from 'react-haiku';
-// import BuyNowSquareBG from '../smartphone_common/BuyNowSquareBG';
+import { useSize } from 'react-haiku'
 
 const Hero = ({ title, subtitle, phoneUrl, purchaseLink, bgDesktop, bgMobile }) => {
 
-    const elementRef = useRef(null);
-    const { width } = useSize(elementRef);
+    const elementRef = useRef(null)
+    const { width } = useSize(elementRef)
 
     console.log('bgdesktop', bgDesktop)
-0
+
     return (
         <div ref={elementRef} className=' overflow-hidden lg:min-h-[680px] min-h-[521px] items-center flex' style={{ background: `url(${width < 1024 ? bgMobile : bgDesktop}) center center/cover no-repeat `}}>
             <div className="content flex flex-col lg:flex-row gap-4 lg:gap-0 lg:justify-between items-center px-4 md:px-0 relative">
@@ -18,7 +17,7 @@ const Hero = ({ title, subtitle, phoneUrl, purchaseLink, bgDesktop, bgMobile }) 
                         <p className="text-mobile/title lg:text-[20px] lg:leading-6 lg:tracking-[0.2px] font-normal text-grey/grey/1 max-w-[564px] " data-aos="fade-right" data-aos-delay="400">{subtitle}</p>
                     </div>
                     <div className="hidden lg:block" data-aos="fade-up" data-aos-delay="600">
-                        {/* <BuyNowSquareBG purchaseLink={purchaseLink} /> */}
+                        <BuyNowSquareBG purchaseLink={purchaseLink} />
                     </div>
                 </div>
                 <img data-aos="fade-up" src={phoneUrl} alt="it2175" className='lg:max-w-[393px] lg:max-h-[528px] max-w-[171px] max-h-[500px] self-end lg:self-start' />
