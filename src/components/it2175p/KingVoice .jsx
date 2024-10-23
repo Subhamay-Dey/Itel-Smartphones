@@ -4,13 +4,13 @@ import { For, useSize } from 'react-haiku'
 const KingVoice = ({ phoneUrl, cards, bgColor, borderColor, textColor, linearGradient, bgGradient }) => {
 
     return (
-        <div className="flex flex-col overflow-hidden items-center  relative gap-6 lg:gap-14 pb-[366px] pt-9 lg:pb-[116px] lg:pt-12" style={linearGradient ? { backgroundImage: bgGradient } : { background: bgColor }}>
+        <div className="flex flex-col overflow-hidden items-center  relative gap-6 lg:gap-14 pb-[366px] pt-9 lg:pb-[116px] lg:pt-12 bg-KingVoiceBG lg:bg-KingVoiceBG">
             <div className="">
                 <div className="flex justify-center border-2 relative rounded-s" style={{ borderColor: borderColor }}>
-                    <h3 className="text-mobile/h6 lg:text-desktop/h3 text-white font-markot text-center absolute -translate-y-1/2  px-3 lg:px-5" style={{ backgroundColor: bgColor }}>A Phone That Speaks For You</h3>
-                    <h1 className='uppercase text-[94px] lg:text-[240px] lg:leading-[286px] font-bold leading-[94px] font-markot px-5 lg:px-0' data-aos="fade-up" style={{ color: textColor }}>
-                        <span className='tracking-[15px] font-markot '>king</span><br className='lg:hidden' />
-                        <div className='-tracking-[3.7px] inline'>v
+                    <h3 className="text-mobile/h6 lg:text-desktop/h3 text-white font-[MARK_OT] text-center absolute -translate-y-1/2 px-3 lg:px-5" style={{ backgroundColor: bgColor }}>A Phone That Speaks For You</h3>
+                    <h1 className='uppercase text-[94px] lg:text-[240px] lg:leading-[286px] font-bold leading-[94px] px-5 lg:px-0 text-[#4F6BC9]' data-aos="fade-up" style={{ color: textColor }}>
+                        <span className='-tracking-[3.7px] font-[MARK_OT] pr-16'>king</span><br className='lg:hidden' />
+                        <div className='-tracking-[3.7px] inline'>vo
                             <div className='relative inline'>
                                 
                                 <svg width="92" className='size-6 lg:size-[92px] absolute top-[52%] left-[53%] -translate-x-1/2 -translate-y-1/2' height="92" viewBox="0 0 92 92" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -34,7 +34,7 @@ const KingVoice = ({ phoneUrl, cards, bgColor, borderColor, textColor, linearGra
                     </h1>
                 </div>
             </div>
-            <div className="grid gap-x-4 gap-y-3 lg:gap-y-10 grid-cols-2 lg:gap-x-[622px] font-markot relative">
+            <div className="grid gap-x-4 gap-y-3 lg:gap-y-10 grid-cols-2 lg:gap-x-[622px] font-[MARK_OT] relative">
                 <For each={cards} render={({ label, icon }, idx) =>
                     <div className="gap-2 flex  lg:gap-4 lg:w-[259px] items-center" key={idx} data-aos="fade-up">
                         <div className="lg:min-h-[54px] max-h-8 max-w-8 lg:min-w-[54px] lg:rounded-[8px] rounded-[4px] flex items-center justify-center" style={{ background: borderColor }}>
@@ -44,9 +44,9 @@ const KingVoice = ({ phoneUrl, cards, bgColor, borderColor, textColor, linearGra
                     </div>
                 } />
             </div>
-            <img src={phoneUrl} alt="Super Guru 4g" loading='lazy' className='absolute bottom-0 left-1/2 top-[440px] lg:top-[278px] -translate-x-1/2 max-w-[298px] max-h-[760px] lg:max-w-[490px] ' />
+            <img src={phoneUrl} alt="Super Guru 4g" loading='lazy' className='absolute bottom-0 left-1/2 top-[440px] lg:top-[192px] -translate-x-1/2 max-w-[298px] max-h-[760px] lg:max-w-[490px] ' />
         </div>
     )
 }
 
-export default KingVoice
+export default KingVoice
