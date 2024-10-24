@@ -5,6 +5,7 @@ import CoolGadgets from './components/Homepage/CoolGadgets'
 import SmartApp from './components/Homepage/SmartApp'
 import Enjoy from './components/Homepage/Enjoy'
 import Entertainment from './components/Homepage/Entertainment'
+import DareToDoIt from './components/Homepage/DareToDoIt'
 
 
 const It2175 = () => {
@@ -13,6 +14,7 @@ const It2175 = () => {
             <Homepage/>
             <HotPicks/>
             <Entertainment/>
+            <DareToDoIt/>
             <CoolGadgets/>
             <SmartApp/>
             <Enjoy/>
