@@ -1,7 +1,7 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import { EffectFade, Navigation, Pagination } from 'swiper/modules';
+import { EffectFade, Pagination } from 'swiper/modules';
 
 // Import Swiper styles
 import 'swiper/css';
