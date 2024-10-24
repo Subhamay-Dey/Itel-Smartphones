@@ -1,8 +1,9 @@
 
 const HotPicks = () => {
+
   return (
     <>
-        <div className='w-full h-auto bg-third-bg xl:px-36 px-4 py-10 overflow-hidden'>
+        <div className='w-full h-auto bg-third-bg px-4 md:px-0 lg:px-0 xl:px-0 py-10 overflow-hidden'>
             <div className="content flex-col justify-center items-center">
                 <div className='w-full h-full flex gap-4 items-center'>
                     <div className="md:w-20 md:h-20">
