@@ -2,6 +2,7 @@
 import HeroSection from './components/Homepage/pages/Hero'
 import Homepage from './components/Homepage/Homepage'
 import HotPicks from './components/Homepage/HotPicks'
+import CoolGadgets from './components/Homepage/CoolGadgets'
 
 const It2175 = () => {
     return (
@@ -9,6 +10,7 @@ const It2175 = () => {
             <HeroSection/>
             <Homepage/>
             <HotPicks/>
+            <CoolGadgets/>
         </div>
     )
 }
