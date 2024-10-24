@@ -4,6 +4,7 @@ import Homepage from './components/Homepage/Homepage'
 import HotPicks from './components/Homepage/HotPicks'
 import CoolGadgets from './components/Homepage/CoolGadgets'
 import SmartApp from './components/Homepage/SmartApp'
+import Enjoy from './components/Homepage/Enjoy'
 
 const It2175 = () => {
     return (
@@ -13,6 +14,7 @@ const It2175 = () => {
             <HotPicks/>
             <CoolGadgets/>
             <SmartApp/>
+            <Enjoy/>
         </div>
     )
 }

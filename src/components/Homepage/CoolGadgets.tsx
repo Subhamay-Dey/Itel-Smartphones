@@ -9,7 +9,7 @@ function CoolGadgets() {
                     <img src="/homepage/GadgetsStar.png" alt="GadgetsStar" className="absolute hidden md:flex right-0 -top-20" />
                 </div>
                 <img src="/homepage/Gadgets.gif" alt="Gadgets" className="hidden md:flex"/>
-                <img src="/homepage/gadgets.png" alt="gadgets" className="flex md:hidden w-full" />
+                <img src="/homepage/CoolGAdgets.gif" alt="gadgets" className="flex md:hidden w-full" />
             </div>
             <div className="content text-white">
                 <p className="md:w-2/3 w-full flex-wrap md:text-desktop/body/1 text-desktop/body/2/regular">Check out our lineup of dope gadgets, from itel smartwatches to itel earbuds, blending connectivity with style. Stay ahead of the curve with itel's smart gear—perfect for your vibe!</p>
