@@ -1,5 +1,4 @@
 
-import Homepage from './components/Homepage/Homepage'
 import HotPicks from './components/Homepage/HotPicks'
 import CoolGadgets from './components/Homepage/CoolGadgets'
 import SmartApp from './components/Homepage/SmartApp'
@@ -10,17 +9,20 @@ import StayPluggedIn from './components/Homepage/StayPluggedIn'
 import DreamBig from './components/Homepage/DreamBig'
 import Entertainment from './components/Homepage/Entertainment'
 import Transform from './components/Homepage/Transform'
+import First from './components/Homepage/pages/First'
+// import Hero from './components/Homepage/Hero'
 
 const It2175 = () => {
     return (
         <div>
+            {/* <Hero/> */}
             <HotPicks/>
             <DreamBig/>
             <DareToDoIt/>
             <StayPluggedIn/>
             <Entertainment/>
             <Transform/>
-            <Homepage/>
+            <First/>
             <CountOnItel/>
             <CoolGadgets/>
             <SmartApp/>

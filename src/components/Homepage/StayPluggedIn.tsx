@@ -12,7 +12,7 @@ const StayPluggedIn = () => {
                         <img src='/homepage/selfie.png'/>
                     </div>
                 </div>
-                <div className='md:hidden lg:hidden xl:hidden bg-Subtractmobile flex flex-col justify-center items-center text-center h-[450px] w-[328px] content'>
+                <div className='md:hidden lg:hidden xl:hidden bg-Subtractmobile flex flex-col justify-center items-center text-center h-[450px] max-w-[328px] content'>
                     <div className='w-[80%]' style={{ margin: '0 auto' }}><img src={'/homepage/selfie.png'} /></div>
                     <div className='w-[80%] text-white' style={{ margin: '0 auto' }}>
                         <h2 className='text-[24px] md:text-[36px] font-[700] leading-[31px] md:leading-[46.8px] pb-3'>Stay Plugged into Your<br/>Go-to Socials with itel</h2>

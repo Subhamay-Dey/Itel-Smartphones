@@ -1,12 +1,12 @@
 
-import Homepage from '../Homepage'
-import Mobilehomepage from '../../responsive/homepage/mobilehomepage'
+import MobileFeaturePhone from '../../responsive/homepage/mobilefeaturephone'
+import FeaturePhone from '../FeaturePhone'
 
 function First() {
   return (
     <>
-        <Homepage/>
-        <Mobilehomepage/>
+        <FeaturePhone/>
+        <MobileFeaturePhone/>
     </>
   )
 }
