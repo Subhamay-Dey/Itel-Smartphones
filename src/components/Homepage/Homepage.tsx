@@ -5,7 +5,7 @@ import MobileList from './MobileList'
 const Homepage = () => {
   return (
     <>
-date      <div className='h-auto w-full bg-[#111111] bg-cover bg-center relative overflow-hidden hidden md:block lg:block'>
+      <div className='h-auto w-full bg-[#111111] bg-cover bg-center relative overflow-hidden hidden md:block lg:block'>
         <div className='py-10'>
           <div className='content  h-2/4 bg-homepage-bg bg-cover bg-center rounded-2xl overflow-hidden'>
             <div className=' h-[450px] w-full overflow-hidden flex justify-around items-center'>
