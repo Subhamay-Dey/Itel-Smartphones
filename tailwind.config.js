@@ -247,6 +247,7 @@ export default {
 				"SnapandSaveBGmobile" : "url('/it2175/backgrounds/SnapandSaveBGmobile.webp')",
 				"powerthatgoeasBGMobile" : "url('/it2175/backgrounds/powerthatgoeasBGMobile.webp')",
 				"KingVoiceBG" : "url('/it2175/backgrounds/KingVoiceBG.webp')",
+				"Subtract" : "url('/homepage/Subtract.png')"
 			},
 			borderImage: {
 				's24-gradient-border': 'linear-gradient(107.83deg, #FFCF92 23.83%, #FFE8CB 75.66%) 1',

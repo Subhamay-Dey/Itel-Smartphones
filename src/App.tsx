@@ -7,6 +7,7 @@ import Enjoy from './components/Homepage/Enjoy'
 import Entertainment from './components/Homepage/Entertainment'
 import DareToDoIt from './components/Homepage/DareToDoIt'
 import CountOnItel from './components/Homepage/CountOnItel'
+import StayPluggedIn from './components/Homepage/StayPluggedIn'
 
 const It2175 = () => {
     return (
@@ -15,6 +16,7 @@ const It2175 = () => {
             <HotPicks/>
             <Entertainment/>
             <DareToDoIt/>
+            <StayPluggedIn/>
             <CountOnItel/>
             <CoolGadgets/>
             <SmartApp/>
