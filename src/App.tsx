@@ -10,16 +10,14 @@ import DreamBig from './components/Homepage/DreamBig'
 import Entertainment from './components/Homepage/Entertainment'
 import Transform from './components/Homepage/Transform'
 import First from './components/Homepage/pages/First'
-// import Hero from './components/Homepage/Hero'
 
 const It2175 = () => {
     return (
         <div>
-            {/* <Hero/> */}
             <HotPicks/>
             <DreamBig/>
             <DareToDoIt/>
-            {/* <StayPluggedIn/> */}
+            <StayPluggedIn/>
             <Entertainment/>
             <Transform/>
             <First/>
