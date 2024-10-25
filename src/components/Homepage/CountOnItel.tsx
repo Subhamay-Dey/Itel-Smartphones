@@ -15,8 +15,8 @@ const CountOnItel = () => {
                         <img src="/homepage/Union.svg" alt="" />
                     </button>
                 </div>
-                <div className="">
-                    <img src="/homepage/countonitel.webp" alt="countonitel" className="hidden sm:flex md:flex lg:flex"/>
+                <div className="w-full">
+                    <img src="/homepage/countonitel.webp" alt="countonitel" className="hidden sm:flex md:flex w-full lg:flex"/>
                     <img src="/homepage/O.png" alt="" className="flex sm:hidden md:hidden lg:hidden w-full px-4"/>
                 </div>
             </div>

@@ -19,7 +19,7 @@ const It2175 = () => {
             <HotPicks/>
             <DreamBig/>
             <DareToDoIt/>
-            <StayPluggedIn/>
+            {/* <StayPluggedIn/> */}
             <Entertainment/>
             <Transform/>
             <First/>

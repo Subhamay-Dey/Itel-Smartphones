@@ -2,7 +2,7 @@ import Button from "../../Homepage/common/Button";
 
 function MobileFeaturePhone() {
   return (
-    <div className='md:hidden lg:hidden block bg-[#111111] max-w-full min-h-screen py-8 px-4 sm:px-6 '>
+    <div className='md:hidden lg:hidden bg-[#111111] max-w-full min-h-screen flex flex-col justify-center items-center py-8 px-4 sm:px-6 '>
       <div className='h-[400px] sm:h-[420px] bg-featurePhone bg-cover bg-center rounded-2xl overflow-hidden pt-8 px-6 sm:px-8 flex flex-col'>
         <div className="block">
           <p className="text-white font-[MARK_OT] text-mobile/h4">Discover the Next-Gen</p>
