@@ -7,7 +7,7 @@ const HotPicks = () => {
             <div className="content flex-col justify-center items-center">
                 <div className='w-full h-full flex gap-4 items-center'>
                     <div className="md:w-20 md:h-20">
-                        <img src="/homepage/HotStar.png" alt="" className='md:w-20 md:h-20 w-[42.42px] h-[38px]'/>
+                        <img src="/homepage/Hotstar.gif" alt="" className='md:w-20 md:h-20 w-[42.42px] h-[38px]'/>
                     </div>
                     <div className="md:flex block md:gap-3 gap-0">
                     <p className='text-white md:text-desktop/h2 text-mobile/h4 font-[MARK_OT]'>Hot Picks: Snag</p>

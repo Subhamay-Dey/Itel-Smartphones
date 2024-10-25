@@ -22,21 +22,21 @@ const CountOnItel = () => {
             </div>
             <div className="content flex md:flex-row flex-col justify-around md:items-center items-start px-4 pt-10">
                 <div className="md:block flex text-white">
-                    <img src="/homepage/HotStar.png" alt="" />
-                    <div className="flex flex-col justify-center gap-2">
+                    <img src="/homepage/Hotstar.gif" alt="" className="w-[85px] h-[75px]"/>
+                    <div className="flex flex-col justify-centegifap-2">
                         <p className="md:text-desktop/h4 text-mobile/h5/medium pl-2">100 Days Promise</p>
                         <p className="md:text-desktop/button text-desktop/body/2/medium pl-2">READ MORE</p>
                     </div>
                 </div>
                 <div className="md:block flex text-white">
-                    <img src="/homepage/HotStar.png" alt="" />
+                    <img src="/homepage/Hotstar.gif" alt="" className="w-[85px] h-[75px]"/>
                     <div className="flex flex-col justify-center gap-2">
                         <p className="md:text-desktop/h4 text-mobile/h5/medium pl-2">One-Time Screen Replacement</p>
                         <p className="md:text-desktop/button text-desktop/body/2/medium pl-2">READ MORE</p>
                     </div>
                 </div>
                 <div className="md:block flex text-white">
-                    <img src="/homepage/HotStar.png" alt="" />
+                    <img src="/homepage/Hotstar.gif" alt="" className="w-[85px] h-[75px]"/>
                     <div className="flex flex-col justify-center gap-2">
                         <p className="md:text-desktop/h4 text-mobile/h5/medium pl-2">Service Center</p>
                         <p className="md:text-desktop/button text-desktop/body/2/medium pl-2">READ MORE</p>
