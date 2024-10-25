@@ -6,7 +6,7 @@ import SmartApp from './components/Homepage/SmartApp'
 import Enjoy from './components/Homepage/Enjoy'
 import Entertainment from './components/Homepage/Entertainment'
 import DareToDoIt from './components/Homepage/DareToDoIt'
-
+import CountOnItel from './components/Homepage/CountOnItel'
 
 const It2175 = () => {
     return (
@@ -15,6 +15,7 @@ const It2175 = () => {
             <HotPicks/>
             <Entertainment/>
             <DareToDoIt/>
+            <CountOnItel/>
             <CoolGadgets/>
             <SmartApp/>
             <Enjoy/>
